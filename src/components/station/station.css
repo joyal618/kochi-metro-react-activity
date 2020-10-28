@@ -1,0 +1,40 @@
+.stationContainer{
+    width:28vw;
+    height: 40vh;
+    display:grid;
+    grid-template-rows: 30% 70%;
+    border:2px solid #000000;
+    cursor: pointer;
+}
+.clicked{
+    background-color: aqua;
+}
+.stationHeader{
+    width: 95%;
+    height: 100%;   
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 1px solid #000000;
+    justify-content: space-between;
+    padding-right:10px;
+}
+.stationDetailWrapper{
+    display:grid;
+    grid-auto-flow: row;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.stationDetail{ 
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+    padding-left: 10px;
+    line-height:25px;
+}
+
+.fa.fa-check{
+    color: black;
+}

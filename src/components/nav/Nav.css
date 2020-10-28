@@ -1,0 +1,28 @@
+.nav-bar {
+    display:flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #E2F2FC 0%, #2FABF0 100%);
+}
+
+
+.nav-add-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    overflow: hidden;
+    float: left;
+    background: white;
+ 
+}
+
+.nav-kochi-metro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width:90%;
+    float: right;
+}

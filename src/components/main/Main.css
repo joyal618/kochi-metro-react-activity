@@ -1,0 +1,34 @@
+
+
+.stationListContainer{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content:space-around;
+    margin-bottom: 10vh;
+    
+}
+
+.mainHeader{
+    padding-left: 10vw;
+}
+
+.stationFare{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+}
+.fareHeader{
+    padding-left: 10vw;
+    padding-right:20vw;
+    display:flex;
+    justify-content:space-between;
+    /*  */
+}
+.fareBody{
+    display:flex;
+    flex-direction: row;
+    /* padding-left: -10vw; */
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 10vh;
+}

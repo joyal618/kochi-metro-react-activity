@@ -1,0 +1,9 @@
+.stationListWrapper{
+    display:flex;
+    flex-direction:column;
+    width:30vw;
+    height: 70vh;
+    overflow: scroll;
+    border:2px solid;
+    padding:5px;
+}

@@ -1,0 +1,10 @@
+.farePriceWrapper{
+    display : flex;
+    height: 20vh;
+    width:20vw;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #000000;
+    margin-left: 7vw;
+    margin-top: 15vh;
+ }

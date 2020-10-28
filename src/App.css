@@ -1,0 +1,4 @@
+.App-Container{
+  display:grid;
+  row-gap: 20px;
+}
